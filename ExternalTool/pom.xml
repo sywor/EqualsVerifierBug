@@ -30,7 +30,8 @@
           </execution>
         </executions>
         <configuration>
-          <keystore>/home/eosspet/equalsVerifierBug/.keystore</keystore>
+        	<!-- DON'T FORGETT TO CHANGE THIS!!! -->
+          <keystore>[YOUR PATH TO KEYSTORE FILE]/.keystore</keystore>
           <alias>testFoncu</alias>
           <storepass>123456</storepass>
           <keypass>123456</keypass>
